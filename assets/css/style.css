@@ -1,0 +1,18 @@
+
+#main-container {
+    text-align: center;
+}
+
+.hidden {
+    visibility: hidden;
+};
+
+/* having issues with keeping my checked radio buttons hidden if I switch the order of .hidden and .challenge */
+
+/* .challenge {
+    color: orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}; */ 
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Trivia Game</title>
+</head>
+
+<body>
+
+<div id="main-container">
+    <h1 class="challenge">NBA Trivia Challenge</h1>
+    
+    <button id="start" class="challenge">Press to Start</button>
+    
+    <div>
+        <h4 name="q1">Which former player has won the most NBA championships?</h4>
+        <input type="radio" value="1" name="q1">Bill Russel</input>
+        <input type="radio" value="2" name="q1">Michael Jordan</input>
+        <input type="radio" value="3" name="q1">Tim Duncan</input>
+        <input type="radio" value="4" name="q1">Wilt Chamberlain</input>
+        <input type="radio" value="5" name="q1" checked class="hidden">
+        <h4 name="q2">Which NBA franchise has made the most Finals appearances?</h4>
+        <input type="radio" value="1" name="q2">Chicago Bulls</input>
+        <input type="radio" value="2" name="q2">Boston Celtics</input>
+        <input type="radio" value="3" name="q2">Golden State Warriors</input>
+        <input type="radio" value="4" name="q2">Minneapolis/Los Angeles Lakers</input>
+        <input type="radio" value="5" name="q2" checked class="hidden">
+        <h4 name="q3">Who is the shortest player in the history of the league?</h4>
+        <input type="radio" value="1" name="q3">Nate Robinson</input>
+        <input type="radio" value="2" name="q3">Spud Webb</input>
+        <input type="radio" value="3" name="q3">Mugsy Bogues</input>
+        <input type="radio" value="4" name="q3">Isaiah Thomas </input>
+        <input type="radio" value="5" name="q3" checked class="hidden">
+        <h4 name="q4">Which player has the most career points in the playoffs?</h4>
+        <input type="radio" value="1" name="q4">Kobe Bryant</input>
+        <input type="radio" value="2" name="q4">Kareem Abdul-Jabbar</input>
+        <input type="radio" value="3" name="q4">Lebron James</input>
+        <input type="radio" value="4" name="q4">Michael Jordan</input>
+        <input type="radio" value="5" name="q4" checked class="hidden">
+        <h4 name="q5"> What player appeared in the most career NBA games?</h4>
+        <input type="radio" value="1" name="q5">Dell Curry</input>
+        <input type="radio" value="2" name="q5">Bill Russel</input>
+        <input type="radio" value="3" name="q5">Oscar Robertson</input>
+        <input type="radio" value="4" name="q5">Robert Parrish</input>
+        <input type="radio" value="5" name="q5" checked class="hidden">
+        <h4 name="q6">Which player was the first to win eight NBA scoring titles?</h4>
+        <input type="radio" value="1" name="q6">Wilt Chamberlain</input>
+        <input type="radio" value="2" name="q6">Michael Jordan</input>
+        <input type="radio" value="3" name="q6">Kobe Bryant</input>
+        <input type="radio" value="4" name="q6">James Harden</input>
+        <input type="radio" value="5" name="q6" checked class="hidden">
+        <h4 name="q7">Who has made the most three pointers in NBA history?</h4>
+        <input type="radio" value="1" name="q7">Ray Allen</input>
+        <input type="radio" value="2" name="q7">Reggie Miller</input>
+        <input type="radio" value="3" name="q7">Stephen Curry</input>
+        <input type="radio" value="4" name="q7">Jason Terry</input>
+        <input type="radio" value="5" name="q7" checked class="hidden">
+        <h4 name="q8">Which team has won the most NBA titles?</h4>
+        <input type="radio" value="1" name="q8">Chicago Bulls</input>
+        <input type="radio" value="2" name="q8">Boston Celtics</input>
+        <input type="radio" value="3" name="q8">Los Angeles Lakers</input>
+        <input type="radio" value="4" name="q8">San Antonio Spurs</input>
+        <input type="radio" value="5" name="q8" checked class="hidden">
+    </div>
+    <br>
+    <button id="submit" type="submit" class="challenge">Submit</button>
+    <br>
+    <div>
+        <h3 class="challenge">Correct Answers:<span id="correct-answers" class="challenge"></span></h3>
+    </div>
+    <br>
+    <div>
+        <h3 class="challenge">Wrong Answers:<span id="wrong-answers" ></span></h3>
+    </div>
+</div>
+
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>
